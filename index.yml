@@ -36,6 +36,12 @@ files:
 
       \r
 
+      # this paragraph below is also a comment because it's\r
+
+      # between ''' and '''. Crazy!\r
+
+      \r
+
       '''regarding math...python uses PEMDAS, but does all\r
 
       multiplication/division in order from left to right. \r

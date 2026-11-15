@@ -1,20 +1,24 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart2
-title: Page
+title: Math (and how to print it)
 content: >+
-  In this lesson, we're going to explore how to use variables in Python to make
-  our programs more dynamic and interesting. Variables allow us to store
-  information that can change, making our programs more flexible and powerful.
+  In this lesson, we're going to explore how to use math in Python. It's
+  unavoidable, but luckily all we have to do is know an equation and the
+  computer will then do all the math for us. 
 
 
-  ### What is a Variable?
+  ### PEMDAS?
 
 
-  A variable is like a container that holds data. You can think of it as a
-  labeled box where you can store a value, such as a number or a piece of text.
-  In Python, you create a variable by giving it a name and assigning it a value
-  using the `=` sign (the = sign isn't "equals" it means, assign the thing on
-  the right to the thing on the left).
+  In the United States we use an acronym called PEMDAS which stands for
+  Parentheses Exponents Multiplication Division Addition Subtraction. That’s the
+  order Python follows as well. The mistake people make with PEMDAS is to think
+  this is a strict order, as in ”Do P, then E, then M, then D, then A, then S.”
+  The actual order is you do the multiplication and division (M\&D) in one step,
+  from left to right, then you do the addition and subtraction in one step from
+  left to right. So, you could rewrite PEMDAS as PE(M\&D)(A\&S). This is how
+  Python handles math, too, so watch the long math equations we have and try to
+  figure out what to expect before hitting the run button!
 
 
   ### Example
@@ -25,52 +29,52 @@ content: >+
 
   ```python
 
-  # Assigning a value to a variable
+  # Math!
 
-  greeting = "Hello, world!"
+  print(3 + 2 * 5 / 2 + 3 - 1 * 8)
 
 
-  # Printing the variable
-
-  print(greeting)
+  # what number do you expect to print?
 
   ```
 
 
-  In this example, we created a variable named `greeting` and assigned it the
-  value `"Hello, world!"`. When we use `print(greeting)`, Python outputs the
-  value stored in `greeting`.
+  In this example, we are printing a number to the console but, instead of
+  explicitly stating the number, we're letting the PC do the math. The answer
+  would be 3. Is that what you got?
 
 
-  ### Using Variables in Print Statements
+  ### Using Math in Print Statements
 
 
-  You can also use variables to store numbers and perform calculations. Here's
-  an example:
+  Notice all the ways you can print math directy to the console.
 
 
   ```python
 
-  # Assigning numbers to variables
+  print("Roosters", 100 - 25 * 3 % 4)
 
-  x = 5
+  print("Now I will count the eggs:")
 
-  y = 10
+  print(3 + 2 + 1 - 5 + 4 % 2 - 1 / 4 + 6)
 
+  print("Is it true that 3 + 2 < 5 - 7?")
 
-  # Performing a calculation and printing the result
-
-  result = x + y
-
-  print("The sum of", x, "and", y, "is", result)
+  print(3 + 2 < 5 - 7) #ooh! what happens here?
 
   ```
 
 
-  In this code, we created two variables, `x` and `y`, and assigned them the
-  values `5` and `10`, respectively. We then calculated their sum and stored it
-  in the variable `result`. Finally, we printed a message that includes the
-  values of `x`, `y`, and `result`.
+  Note in the first line we print a string and the result of a math equation in
+  the same print statement by separating them with a comma (but both within the
+  print function's parentheses). 
+
+
+  The second and third line do the same thing, except they print on separate
+  lines because they are two separate print statements. 
+
+
+  What is going to print with the last line???
 
 
   ### Try It Yourself
@@ -139,3 +143,19 @@ questionGroups:
             value: A string
           - id: "4"
             value: what ghosts do when they're tired
+  - id: "3"
+    questions:
+      - id: "1"
+        type: multiple
+        content: What are 2 ways to enter comments into code?
+        options:
+          - id: "1"
+            value: "#"
+            isCorrect: true
+          - id: "2"
+            value: "''' '''"
+            isCorrect: true
+          - id: "3"
+            value: ( )
+          - id: "4"
+            value: "{ }"
