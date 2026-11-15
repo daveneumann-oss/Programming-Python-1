@@ -1,0 +1,141 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: lessonpart2
+title: Page
+content: >+
+  In this lesson, we're going to explore how to use variables in Python to make
+  our programs more dynamic and interesting. Variables allow us to store
+  information that can change, making our programs more flexible and powerful.
+
+
+  ### What is a Variable?
+
+
+  A variable is like a container that holds data. You can think of it as a
+  labeled box where you can store a value, such as a number or a piece of text.
+  In Python, you create a variable by giving it a name and assigning it a value
+  using the `=` sign (the = sign isn't "equals" it means, assign the thing on
+  the right to the thing on the left).
+
+
+  ### Example
+
+
+  Let's start with a simple example:
+
+
+  ```python
+
+  # Assigning a value to a variable
+
+  greeting = "Hello, world!"
+
+
+  # Printing the variable
+
+  print(greeting)
+
+  ```
+
+
+  In this example, we created a variable named `greeting` and assigned it the
+  value `"Hello, world!"`. When we use `print(greeting)`, Python outputs the
+  value stored in `greeting`.
+
+
+  ### Using Variables in Print Statements
+
+
+  You can also use variables to store numbers and perform calculations. Here's
+  an example:
+
+
+  ```python
+
+  # Assigning numbers to variables
+
+  x = 5
+
+  y = 10
+
+
+  # Performing a calculation and printing the result
+
+  result = x + y
+
+  print("The sum of", x, "and", y, "is", result)
+
+  ```
+
+
+  In this code, we created two variables, `x` and `y`, and assigned them the
+  values `5` and `10`, respectively. We then calculated their sum and stored it
+  in the variable `result`. Finally, we printed a message that includes the
+  values of `x`, `y`, and `result`.
+
+
+  ### Try It Yourself
+
+
+  First of all, COMMENTS! Hooray! Comments are anything after a "#" in a line
+  (or see lines 6-11 for another way to make a comment). We use comments to make
+  our code more readable and to remember what the hell we we thinking when we
+  wrote it. You can never have too many comments, but you can definitely have
+  too few. Get used to writing them as you write code....
+
+
+  &#x20;  &#x20;
+
+
+  Take a look at the code...that's a lot of variables! Note that the variables
+  are all named something specific. We never give variables names that are too
+  vague. You can make the name as long as you want (no spaces!) and python will
+  remember it and help you type it in whenever you need it again.
+
+
+  Note that you can do math on the right side of the assignment (=) and it will
+  put the answer into the variable on the left of the assignment (=). 
+
+
+  Look at the comment on PEMDAS in Python! This is important regarding how
+  computers do math. 
+
+
+  Now look at how the print functions include variables! There's a lot of
+  different ways to print variables, but this is the most common way.
+
+
+  * Press the run button and examine the output. 
+
+  * Try to figure out the rules for what gets printed and how. For example, some
+  lines output "True" or "False". Why?
+
+showEditor: true
+editors:
+  - course1/unit1/lesson1/lessonpart2/PythonExample2.py
+questionGroups:
+  - id: "1"
+    questions:
+      - id: "1"
+        type: string
+        content: Why does Roosters = 97 and why does line 18 = 6.75? Explain the
+          math....
+        options:
+          - id: "1"
+            value: ""
+            isCorrect: true
+  - id: "2"
+    questions:
+      - id: "1"
+        type: multiple
+        content: Lines like 20, 29, 30, and 31 output what is called a Boolean. By
+          examining their output, what is a boolean?
+        options:
+          - id: "1"
+            value: True or False
+            isCorrect: true
+          - id: "2"
+            value: A long number
+          - id: "3"
+            value: A string
+          - id: "4"
+            value: what ghosts do when they're tired

@@ -24,5 +24,74 @@ files:
       print(\"I'd much rather you 'not'.\")\r
 
       print('I \"said\" do not touch this.')"
+  - path: course1/unit1/lesson1/lessonpart2/PythonExample2.py
+    content: "# A comment, this is so you can read your program later.\r
+
+      # Anything after the # is ignored by python.\r
+
+      \r
+
+      print(\"I will now count my chickens:\") #You can even write them after a
+      line!\r
+
+      \r
+
+      '''regarding math...python uses PEMDAS, but does all\r
+
+      multiplication/division in order from left to right. \r
+
+      Same with addition and subtraction. So, in Python, \r
+
+      PEMDAS looks like this: PE(M&D)(A&S) (Also, note\r
+
+      this way of denoting a LOOOOOONNNNG comment. \r
+
+      Cool, eh?)'''\r
+
+      \r
+
+      print(\"Hens\", 25 + 30 / 6)\r
+
+      # The % sign isn't 'percent', it's modulo. \r
+
+      # modulo = the remainder after division\r
+
+      print(\"Roosters\", 100 - 25 * 3 % 4)\r
+
+      print(\"Now I will count the eggs:\")\r
+
+      print(3 + 2 + 1 - 5 + 4 % 2 - 1 / 4 + 6)\r
+
+      print(\"Is it true that 3 + 2 < 5 - 7?\")\r
+
+      print(3 + 2 < 5 - 7) #ooh! what happens here?\r
+
+      \r
+
+      print(\"What is 3 + 2?\", 3 + 2) #what happens in these 2 lines?\r
+
+      print(\"What is 5 - 7?\", 5 - 7)\r
+
+      \r
+
+      print(\"Oh, that's why it's False.\")\r
+
+      \r
+
+      print(\"How about some more.\")\r
+
+      \r
+
+      # The following all output text and True or False\r
+
+      # (someting that can only be True or False is what we\r
+
+      # call a Boolean in coding.)\r
+
+      print(\"Is it greater?\", 5 > -2)\r
+
+      print(\"Is it greater or equal?\", 5 >= -2)\r
+
+      print(\"Is it less or equal?\", 5 <= -2)"
 units:
   - unit1/index.yml
