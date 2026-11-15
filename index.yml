@@ -9,12 +9,20 @@ contacts:
   - displayName: daveneumann-oss
     pictureUrl: https://avatars.githubusercontent.com/u/357128784?v=4
     homePageUrl: https://github.com/daveneumann-oss
+files:
+  - path: course1/unit1/lesson1/lessonpart1/pythonexercise1.py
+    content: "print(\"Hello World!\")\r
+
+      print(\"Hello Again\")\r
+
+      print(\"I like typing this.\")\r
+
+      print(\"This is fun.\")\r
+
+      print('Yay! Printing.')\r
+
+      print(\"I'd much rather you 'not'.\")\r
+
+      print('I \"said\" do not touch this.')"
 units:
-  - id: unit1
-    title: Unit 1
-    lessons:
-      - id: lesson1
-        title: Lesson 1
-        lessonParts:
-          - id: lessonpart1
-            title: Page 1
+  - unit1/index.yml

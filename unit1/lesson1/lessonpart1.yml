@@ -1,0 +1,60 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: lessonpart1
+title: Python, printing, the console and you!
+content: >
+  In this lesson, you will **embark on your journey** (totally NOT AI written
+  \<rolls eyes>)**  **to understand how a program runs in a sequential manner.
+  This foundational concept is crucial as it forms the basis of how computers
+  execute instructions. By the end of this lesson, you will have a clear
+  understanding of how each line of code is processed one after the other, which
+  is essential for writing effective programs.
+
+
+  We will start by exploring the printing command in Python. The `print()`
+  function is one of the most basic yet powerful tools in programming. It
+  **allows you to display information to the user**, which is particularly
+  useful for debugging and understanding how your program is executing. You will
+  learn how to use this command to output text and variables to the console,
+  providing a window into the inner workings of your code.
+
+
+  Additionally, you will gain **hands-on experience with the console**, a vital
+  **tool for running and debugging** your code. The **console is where you will
+  see the output of your** **`print()`** **statements and any errors that may
+  occur**. Understanding how to interpret console messages is key to diagnosing
+  issues and ensuring your program runs smoothly.
+
+
+  By mastering these skills, you will be well-equipped to write and debug simple
+  Python programs, setting a strong foundation for more advanced programming
+  concepts in future lessons.
+showEditor: true
+editors:
+  - course1/unit1/lesson1/lessonpart1/pythonexercise1.py
+questionGroups:
+  - id: "1"
+    questions:
+      - id: "1"
+        type: multiple
+        content: The print command sends an direct output to the user. What shape would
+          we use to show a print statement in a flowchart?
+        options:
+          - id: "1"
+            value: parallelogram
+            isCorrect: true
+          - id: "2"
+            value: rectangle
+          - id: "3"
+            value: diamond
+          - id: "4"
+            value: oval
+  - id: "2"
+    questions:
+      - id: "1"
+        type: string
+        content: Text within "" is called a string. What other punctuation can we put
+          around text to make a string? (Look at line 5)
+        options:
+          - id: "1"
+            value: ""
+            isCorrect: true
