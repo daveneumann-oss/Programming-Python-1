@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart3
-title: Page
+title: Variables!
 content: >+
   ## Using Variables in Python
 
@@ -93,6 +93,7 @@ content: >+
   * Take a look at the code on the right....lot's of variables!
 
     * Note that the names are descriptive and not vague. You can make your variable names as long as you need so you can remember (and other software engineers can figure out) what the variable is storing. Most text editors have shortcuts to quickly paste variable names into your code, so you won't have to type it every time you bring it up!
+
     * You will want to use variables ALL THE TIME! It makes your code more readable and helps you with keeping your logic straight. You can even name your variables the same things you call stuff in your flowcharts and pseudocode to make sure you're not getting lost!
 
 showEditor: true
