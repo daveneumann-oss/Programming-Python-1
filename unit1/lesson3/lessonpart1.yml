@@ -1,0 +1,38 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: lessonpart1
+title: Goblin Battle!
+content: >+
+  ## Your Objective
+
+
+  You are facing a wild Goblin! You both start with 50 health. Your mission is
+  to build a text-based RPG that simulates this battle continuously until one of
+  you drops to 0 health.
+
+
+  ## Your Toolkit
+
+
+  To survive, you cannot just use `print()` statements. You will need
+  **Variables** to track the health scores, a **While Loop** to keep the battle
+  going round after round, and **If/Else** statements to calculate the math for
+  your attacks and heals.
+
+
+  ## Your Orders
+
+
+  Open today's workspace and look for the green **Skeleton Code** comments. Do
+  not delete them! Your job is to translate each green English comment into
+  actual Python code directly underneath it. If your code breaks or you get
+  stuck, read the green comment out loud first.
+
+
+  ## If You Finish Early
+
+
+  Try some of these additions for an extra challenge:
+
+showEditor: true
+editors:
+  - course1/unit1/lesson3/lessonpart1/GoblinBattle.py

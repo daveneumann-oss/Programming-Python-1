@@ -69,68 +69,6 @@ files:
       \    else:\r
 
       \        print(random.choice(responses))"
-  - path: course1/unit1/lesson1/lessonpart3/PythonExercise3.py
-    content: "# Lines 4-11 are all variable assignments! Note you \r
-
-      # can assign variables to other variables or do math\r
-
-      # with variables and then assign that, too!\r
-
-      cars = 100\r
-
-      space_in_a_car = 4.0\r
-
-      drivers = 30\r
-
-      passengers = 90\r
-
-      cars_not_driven = cars - drivers\r
-
-      cars_driven = drivers\r
-
-      carpool_capacity = cars_driven * space_in_a_car\r
-
-      average_passengers_per_car = passengers / cars_driven\r
-
-      # Note on all the variable assignments above how we put\r
-
-      # spaces around the '=' and math operators. You don't have\r
-
-      # to do that, but it's good practice. If you don't, real\r
-
-      # software nerds will know you're a poser. Don't be a \r
-
-      # poser!\r
-
-      \r
-
-      print(\"There are\", cars, \"cars available.\")\r
-
-      print(\"There are only\", drivers, \"drivers available.\")\r
-
-      print(\"There will be\", cars_not_driven, \"empty cars today.\")\r
-
-      print(\"We can transport\", carpool_capacity, \"people today.\")\r
-
-      print(\"We have\", passengers, \"to carpool today.\")\r
-
-      print(\"We need to put about\", average_passengers_per_car,\r
-
-      \"in each car.\")"
-  - path: course1/unit1/lesson1/lessonpart1/pythonexercise1.py
-    content: "print(\"Hello World!\")\r
-
-      print(\"Hello Again\")\r
-
-      print(\"I like typing this.\")\r
-
-      print(\"This is fun.\")\r
-
-      print('Yay! Printing.')\r
-
-      print(\"I'd much rather you 'not'.\")\r
-
-      print('I \"said\" do not touch this.')"
   - path: course1/unit1/lesson1/lessonpart2/PythonExample2.py
     content: "# A comment, this is so you can read your program later.\r
 
@@ -206,6 +144,68 @@ files:
       print(\"Is it greater or equal?\", 5 >= -2)\r
 
       print(\"Is it less or equal?\", 5 <= -2)"
+  - path: course1/unit1/lesson1/lessonpart1/pythonexercise1.py
+    content: "print(\"Hello World!\")\r
+
+      print(\"Hello Again\")\r
+
+      print(\"I like typing this.\")\r
+
+      print(\"This is fun.\")\r
+
+      print('Yay! Printing.')\r
+
+      print(\"I'd much rather you 'not'.\")\r
+
+      print('I \"said\" do not touch this.')"
+  - path: course1/unit1/lesson1/lessonpart3/PythonExercise3.py
+    content: "# Lines 4-11 are all variable assignments! Note you \r
+
+      # can assign variables to other variables or do math\r
+
+      # with variables and then assign that, too!\r
+
+      cars = 100\r
+
+      space_in_a_car = 4.0\r
+
+      drivers = 30\r
+
+      passengers = 90\r
+
+      cars_not_driven = cars - drivers\r
+
+      cars_driven = drivers\r
+
+      carpool_capacity = cars_driven * space_in_a_car\r
+
+      average_passengers_per_car = passengers / cars_driven\r
+
+      # Note on all the variable assignments above how we put\r
+
+      # spaces around the '=' and math operators. You don't have\r
+
+      # to do that, but it's good practice. If you don't, real\r
+
+      # software nerds will know you're a poser. Don't be a \r
+
+      # poser!\r
+
+      \r
+
+      print(\"There are\", cars, \"cars available.\")\r
+
+      print(\"There are only\", drivers, \"drivers available.\")\r
+
+      print(\"There will be\", cars_not_driven, \"empty cars today.\")\r
+
+      print(\"We can transport\", carpool_capacity, \"people today.\")\r
+
+      print(\"We have\", passengers, \"to carpool today.\")\r
+
+      print(\"We need to put about\", average_passengers_per_car,\r
+
+      \"in each car.\")"
   - path: course1/unit1/lesson1/lessonpart4/PythonExercise4.py
     content: "# note these two variables are Booleans set to True\r
 
@@ -374,5 +374,106 @@ files:
       # needed for the code actual operation.\r
 
       print(\"That the end, folks!\")"
+  - path: course1/unit1/lesson3/lessonpart1/GoblinBattle.py
+    content: "import random\r
+
+      \r
+
+      print(\"--- WELCOME TO THE BOSS FIGHT ---\")\r
+
+      print(\"A wild Goblin appears!\")\r
+
+      \r
+
+      # 1. VARIABLES\r
+
+      # Create a variable for player_health and set it to 50\r
+
+      # Create a variable for goblin_health and set it to 50\r
+
+      \r
+
+      \r
+
+      # 2. THE GAME LOOP\r
+
+      # Write a while loop that keeps running as long as BOTH the player and the
+      goblin have health greater than 0:\r
+
+      \r
+
+      \r
+
+      \    # 3. SHOW HEALTH\r
+
+      \    # Inside the loop, print the current health of both the player and
+      the goblin\r
+
+      \    \r
+
+      \    \r
+
+      \    # 4. PLAYER CHOICE\r
+
+      \    # Ask the user if they want to (1) Attack or (2) Heal, and save it to
+      a variable\r
+
+      \    \r
+
+      \r
+
+      \    # 5. IF/ELSE BATTLE LOGIC\r
+
+      \    # If the player chose 1:\r
+
+      \        # Generate random damage between 5 and 15 ( code:
+      random.randint(5, 15) )\r
+
+      \        # Subtract that damage from the goblin's health\r
+
+      \        # Print a message saying how much damage was dealt\r
+
+      \        \r
+
+      \    # Else If the player chose 2:\r
+
+      \        # Generate a random heal amount between 10 and 20\r
+
+      \        # Add that amount to the player's health\r
+
+      \        # Print a message saying how much they healed\r
+
+      \        \r
+
+      \    # Else:\r
+
+      \        # Print a message saying they typed the wrong thing and missed
+      their turn\r
+
+      \        \r
+
+      \        \r
+
+      \    # 6. GOBLIN COUNTER-ATTACK\r
+
+      \    # If the goblin's health is still greater than 0:\r
+
+      \        # Generate random damage between 5 and 15\r
+
+      \        # Subtract that damage from the player's health\r
+
+      \        # Print a message saying how much damage the goblin dealt\r
+
+      \r
+
+      \r
+
+      # 7. GAME OVER LOGIC\r
+
+      # (This goes OUTSIDE the while loop)\r
+
+      # If the player's health is 0 or less, print \"GAME OVER. You lose.\"\r
+
+      # Else, print \"YOU WIN! The goblin is defeated.\""
 units:
   - unit1/index.yml
