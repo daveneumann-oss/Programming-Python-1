@@ -126,7 +126,8 @@ questionGroups:
           math....
         options:
           - id: "1"
-            value: ""
+            value: The % operator is "modulus" that is, it returns the remainder of the
+              division operation instead of the division answer.
             isCorrect: true
   - id: "2"
     questions:
@@ -137,6 +138,7 @@ questionGroups:
         options:
           - id: "1"
             value: True or False
+            explanation: Boolean = True or False. It is a binary data type.
             isCorrect: true
           - id: "2"
             value: A long number
@@ -152,9 +154,13 @@ questionGroups:
         options:
           - id: "1"
             value: "#"
+            explanation: a pound, hash, or whatever you want to call it is how to do both
+              inline and solo comments
             isCorrect: true
           - id: "2"
             value: "''' '''"
+            explanation: three apostrophes on each side of a block of text will turn it into
+              a comment. Used for LONG comments (even then, not as much...)
             isCorrect: true
           - id: "3"
             value: ( )

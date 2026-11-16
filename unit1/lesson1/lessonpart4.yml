@@ -115,7 +115,7 @@ questionGroups:
           what did you do to fix it?
         options:
           - id: "1"
-            value: ""
+            value: An error! Look for a line number and try to decode what it says!
             isCorrect: true
   - id: "2"
     questions:
@@ -125,6 +125,8 @@ questionGroups:
         options:
           - id: "1"
             value: Press anything but 1 or 2 when you meet the bear!
+            explanation: It's the only option that doesn't change the variable not_dead or
+              not_insane to False.
             isCorrect: true
           - id: "2"
             value: "Go into door #2"

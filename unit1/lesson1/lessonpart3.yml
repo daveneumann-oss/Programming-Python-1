@@ -123,5 +123,8 @@ questionGroups:
           put 4 in there instead? Research and answer.
         options:
           - id: "1"
-            value: ""
+            value: 4.0 is called a floating point number. Basically a number with decimal(s)
+              places. A number without a decimal is an integer. In some
+              programming languages this is a huge difference, but Python can
+              automatically switch between the two.
             isCorrect: true

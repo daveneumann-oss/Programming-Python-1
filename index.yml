@@ -12,20 +12,6 @@ contacts:
     pictureUrl: https://avatars.githubusercontent.com/u/357128784?v=4
     homePageUrl: https://github.com/daveneumann-oss
 files:
-  - path: course1/unit1/lesson1/lessonpart1/pythonexercise1.py
-    content: "print(\"Hello World!\")\r
-
-      print(\"Hello Again\")\r
-
-      print(\"I like typing this.\")\r
-
-      print(\"This is fun.\")\r
-
-      print('Yay! Printing.')\r
-
-      print(\"I'd much rather you 'not'.\")\r
-
-      print('I \"said\" do not touch this.')"
   - path: course1/unit1/lesson1/lessonpart2/PythonExample2.py
     content: "# A comment, this is so you can read your program later.\r
 
@@ -101,6 +87,77 @@ files:
       print(\"Is it greater or equal?\", 5 >= -2)\r
 
       print(\"Is it less or equal?\", 5 <= -2)"
+  - path: course1/unit1/lesson2/lessonpart1/MyOracle.py
+    content: "# this imports a library called \"random\" which has \r
+
+      # all sorts of cool functions like making \r
+
+      # random numbers...\r
+
+      import random\r
+
+      \r
+
+      # This is a variable assignment to a variable called\r
+
+      # 'responses'. Note that we're shoving in more than 1 string\r
+
+      # into the 'responses' variable! This is called a list, so there\r
+
+      # are 6 strings inside responses. We can get them out by\r
+
+      # referencing their index number. A list is automatically indexed\r
+
+      # starting with 0 when you create it.\r
+
+      responses = [\r
+
+      \    \"Yes, definitely!\", # index = 0\r
+
+      \    \"No, not at all.\", # index = 1\r
+
+      \    \"Ask again later.\"\r
+
+      ]\r
+
+      \r
+
+      # if we want the program to end, we shouldn't use\r
+
+      # an infinite loop (while True:). How to change?\r
+
+      while True:\r
+
+      \    question = input(\"Ask the Oracle a question (or type 'quit' to
+      exit): \")\r
+
+      \    if question.lower() == 'quit':\r
+
+      \        print(\"Goodbye!\")\r
+
+      \        # Oooh....I don't like 'break' as a command\r
+
+      \        # unless we absolutely need it (we don't)\r
+
+      \        break\r
+
+      \    else:\r
+
+      \        print(random.choice(responses))"
+  - path: course1/unit1/lesson1/lessonpart1/pythonexercise1.py
+    content: "print(\"Hello World!\")\r
+
+      print(\"Hello Again\")\r
+
+      print(\"I like typing this.\")\r
+
+      print(\"This is fun.\")\r
+
+      print('Yay! Printing.')\r
+
+      print(\"I'd much rather you 'not'.\")\r
+
+      print('I \"said\" do not touch this.')"
   - path: course1/unit1/lesson1/lessonpart3/PythonExercise3.py
     content: "# Lines 4-11 are all variable assignments! Note you \r
 
@@ -317,62 +374,5 @@ files:
       # needed for the code actual operation.\r
 
       print(\"That the end, folks!\")"
-  - path: course1/unit1/lesson2/lessonpart1/MyOracle.py
-    content: "# this imports a library called \"random\" which has \r
-
-      # all sorts of cool functions like making \r
-
-      # random numbers...\r
-
-      import random\r
-
-      \r
-
-      # This is a variable assignment to a variable called\r
-
-      # 'responses'. Note that we're shoving in more than 1 string\r
-
-      # into the 'responses' variable! This is called a list, so there\r
-
-      # are 6 strings inside responses. We can get them out by\r
-
-      # referencing their index number. A list is automatically indexed\r
-
-      # starting with 0 when you create it.\r
-
-      responses = [\r
-
-      \    \"Yes, definitely!\", # index = 0\r
-
-      \    \"No, not at all.\", # index = 1\r
-
-      \    \"Ask again later.\"\r
-
-      ]\r
-
-      \r
-
-      # if we want the program to end, we shouldn't use\r
-
-      # an infinite loop (while True:). How to change?\r
-
-      while True:\r
-
-      \    question = input(\"Ask the Oracle a question (or type 'quit' to
-      exit): \")\r
-
-      \    if question.lower() == 'quit':\r
-
-      \        print(\"Goodbye!\")\r
-
-      \        # Oooh....I don't like 'break' as a command\r
-
-      \        # unless we absolutely need it (we don't)\r
-
-      \        break\r
-
-      \    else:\r
-
-      \        print(random.choice(responses))"
 units:
   - unit1/index.yml

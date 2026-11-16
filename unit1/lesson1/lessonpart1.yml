@@ -41,6 +41,8 @@ questionGroups:
         options:
           - id: "1"
             value: parallelogram
+            explanation: Parallelogram indicates 'input/output', and printing to the console
+              is a definite output.
             isCorrect: true
           - id: "2"
             value: rectangle
@@ -56,5 +58,6 @@ questionGroups:
           around text to make a string? (Look at line 5)
         options:
           - id: "1"
-            value: ""
+            value: "''"
+            explanation: Strings can either be surrounded by " " or ' '. Both work!
             isCorrect: true
