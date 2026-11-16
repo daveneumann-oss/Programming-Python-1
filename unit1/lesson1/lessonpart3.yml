@@ -104,8 +104,8 @@ questionGroups:
     questions:
       - id: "1"
         type: choice
-        content: "We didn't use all of our variables in the code! cars_driven never gets
-          called out! Did the world end? "
+        content: We didn't use all of our variables in the code! cars_driven never gets
+          called out! Did the world end?
         options:
           - id: "1"
             value: No
