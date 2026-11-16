@@ -122,12 +122,13 @@ questionGroups:
     questions:
       - id: "1"
         type: string
-        content: Why does Roosters = 97 and why does line 18 = 6.75? Explain the
-          math....
+        content: Why does Roosters = 97 and why does line 18 = 6.75? What operator is
+          causing some confusion?
         options:
           - id: "1"
-            value: The % operator is "modulus" that is, it returns the remainder of the
-              division operation instead of the division answer.
+            value: "%"
+            explanation: The % operator is "modulus" that is, it returns the remainder of
+              the division operation instead of the division answer.
             isCorrect: true
   - id: "2"
     questions:
