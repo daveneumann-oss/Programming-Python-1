@@ -168,7 +168,7 @@ files:
 
       # more about this later when we get into some boolean math.\r
 
-      while not_dead and not_insane:\r
+      while not_dead and not_insane\r
 
       \r
 
@@ -247,6 +247,16 @@ files:
       \            not_dead = False\r
 
       \        else:\r
+
+      \            # this print statement looks weird. Don't fret!\r
+
+      \            # the 'f' at the beginning tells Python to format\r
+
+      \            # the string and include the variable inside of \r
+
+      \            # it. Otherwise, it's just like we've printed \r
+
+      \            # before!\r
 
       \            print(f\"Well, doing {bear} is probably better.\")\r
 

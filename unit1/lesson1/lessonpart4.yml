@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart4
-title: Page
+title: While, If and Else
 content: >
   ## If/Else Statements and While Loops
 
@@ -108,6 +108,16 @@ editors:
   - course1/unit1/lesson1/lessonpart4/PythonExercise4.py
 questionGroups:
   - id: "1"
+    questions:
+      - id: "1"
+        type: string
+        content: What happened the first time you ran the code? What does it mean and
+          what did you do to fix it?
+        options:
+          - id: "1"
+            value: ""
+            isCorrect: true
+  - id: "2"
     questions:
       - id: "1"
         type: choice
