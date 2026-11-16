@@ -149,5 +149,163 @@ files:
       print(\"We need to put about\", average_passengers_per_car,\r
 
       \"in each car.\")"
+  - path: course1/unit1/lesson1/lessonpart4/PythonExercise4.py
+    content: "# note these two variables are Booleans set to True\r
+
+      not_dead = True\r
+
+      not_insane = True\r
+
+      \r
+
+      # The conditional statement has to be true for the while\r
+
+      # loop to run all the stuff indented underneath it. \r
+
+      # Note how we use booleans directly to make the condition\r
+
+      # True or False. (AND is a boolean operator...we'll talk)\r
+
+      # more about this later when we get into some boolean math.\r
+
+      while not_dead and not_insane:\r
+
+      \r
+
+      \    # if the print statement below is in your console, \r
+
+      \    # that means we're inside the while loop! using print\r
+
+      \    # statements like this is great for debugging if a \r
+
+      \    # loop or if/else is working the way you want.\r
+
+      \    print(\"\"\"You enter a dark room with two doors.\r
+
+      \    Do you go through door #1 or door #2?\"\"\")\r
+
+      \r
+
+      \    # The variable below is assigned an input statement.\r
+
+      \    # That means the computer will ask for the user to type\r
+
+      \    # in a value and assign that value to the variable. We'll\r
+
+      \    # use these a lot in your \"oracle\" program.\r
+
+      \    door = input(\"> \")\r
+
+      \r
+
+      \    # Our first if/elif/else statement. Note that everything\r
+
+      \    # indented under line 27 will run if door == 1 is true.\r
+
+      \    if door == \"1\":\r
+
+      \        print(\"There's a giant bear here eating a cheesecake.\")\r
+
+      \        print(\"What do you do?\")\r
+
+      \        print(\"1. Take the cake.\")\r
+
+      \        print(\"2. Scream at the bear.\")\r
+
+      \r
+
+      \        bear = input(\"> \")\r
+
+      \        # Whoa! an if inside an if? Yep, we call these\r
+
+      \        # nested if statements. You can do this as many\r
+
+      \        # times as you like, but your code will get \r
+
+      \        # exponentially more and more confusing the more\r
+
+      \        # nested if/else statements you have so try to cap\r
+
+      \        # it at 3 or 4 at the very most!\r
+
+      \        if bear == \"1\":\r
+
+      \            print(\"The bear eats your face off. Good job!\")\r
+
+      \            not_dead = False\r
+
+      \        # what the hell is an elif? Basically, this allows\r
+
+      \        # your if/else to have more than just 2 answers! Think\r
+
+      \        # of it as \"else, if\"\r
+
+      \        elif bear == \"2\":\r
+
+      \            print(\"The bear eats your legs off. Good job!\")\r
+
+      \            not_dead = False\r
+
+      \        else:\r
+
+      \            print(f\"Well, doing {bear} is probably better.\")\r
+
+      \            print(\"Bear runs away.\")\r
+
+      \    elif door == \"2\":\r
+
+      \        print(\"You stare into the endless abyss at Cthulhu's
+      retina.\")\r
+
+      \        print(\"1. Blueberries.\")\r
+
+      \        print(\"2. Yellow jacket clothespins.\")\r
+
+      \        print(\"3. Understanding flowers screaming melodies.\")\r
+
+      \        insanity = input(\"> \")\r
+
+      \r
+
+      \        # 'or' is another boolean operator. :)\r
+
+      \        if insanity == \"1\" or insanity == \"2\":\r
+
+      \            print(\"Your body survives powered by a mind of jello.\")\r
+
+      \            print(\"Good job!\")\r
+
+      \            not_insane = False\r
+
+      \        else:\r
+
+      \            print(\"The insanity rots your eyes into a pool of muck.\")\r
+
+      \            print(\"Good job!\")\r
+
+      \            not_insane = False\r
+
+      \r
+
+      \    else:\r
+
+      \        print(\"You stumble around and fall on a knife and die. Good
+      job!\")\r
+
+      \        not_dead = False\r
+
+      \r
+
+      # this isn't needed but otherwise it's hard to tell\r
+
+      # if the program reached the end or got stuck in the\r
+
+      # while loop somewhere. So, basically, this is a print\r
+
+      # statment used only for debugging the code and not\r
+
+      # needed for the code actual operation.\r
+
+      print(\"That the end, folks!\")"
 units:
   - unit1/index.yml

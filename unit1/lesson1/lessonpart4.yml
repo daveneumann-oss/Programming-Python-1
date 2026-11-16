@@ -1,0 +1,124 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: lessonpart4
+title: Page
+content: >
+  ## If/Else Statements and While Loops
+
+
+  In this lesson, we'll explore two fundamental programming concepts: if/else
+  statements and while loops. These tools will help you control the flow of your
+  programs and make them more dynamic and interactive.
+
+
+  ### If/Else Statements
+
+
+  If/else statements allow your program to make decisions based on certain
+  conditions. They evaluate a condition and execute a block of code if the
+  condition is true. If the condition is false, the program can execute an
+  alternative block of code. If/Else statements are one of the options for your
+  diamond shapes in a flowchart!
+
+
+  **Syntax:**
+
+
+  ```python
+
+  if condition:
+      # Code to execute if condition is true
+  else:
+      # Code to execute if condition is false
+  ```
+
+
+  **Example:**
+
+
+  ```python
+
+  temperature = 75
+
+
+  if temperature > 70:
+      print("It's a warm day!")
+  else:
+      print("It's a bit chilly today.")
+  ```
+
+
+  In this example, the program checks if the temperature is greater than 70. If
+  it is, it prints a message indicating a warm day; otherwise, it prints a
+  message about it being chilly.
+
+
+  The "temperature > 70" is the conditional statment. If true, the code indented
+  under the if: will run; if false, the code under else: will run.
+
+
+  ### While Loops
+
+
+  While loops allow you to repeat a block of code as long as a condition is
+  true. This is useful for tasks that require repeated execution until a certain
+  condition changes.
+
+
+  **Syntax:**
+
+
+  ```python
+
+  while condition:
+      # Code to execute repeatedly
+  ```
+
+
+  **Example:**
+
+
+  ```python
+
+  count = 0
+
+
+  while count < 5:
+      print("This is loop iteration", count)
+      count += 1
+  ```
+
+
+  In this example, the loop will print a message five times, incrementing the
+  `count` variable each time until it reaches 5.
+
+
+  ### Practice Exercise
+
+
+  Try writing a small program that uses both an if/else statement and a while
+  loop. For example, create a simple guessing game where the user has to guess a
+  number between 1 and 10. Use an if/else statement to check if the guess is
+  correct and a while loop to allow multiple attempts.
+
+
+  By mastering if/else statements and while loops, you'll be able to create more
+  complex and interactive programs. Happy coding!
+showEditor: true
+editors:
+  - course1/unit1/lesson1/lessonpart4/PythonExercise4.py
+questionGroups:
+  - id: "1"
+    questions:
+      - id: "1"
+        type: choice
+        content: There's only one way to make the while loop repeat...what is it?
+        options:
+          - id: "1"
+            value: Press anything but 1 or 2 when you meet the bear!
+            isCorrect: true
+          - id: "2"
+            value: "Go into door #2"
+          - id: "3"
+            value: Listen to the flowers....
+          - id: "4"
+            value: Steal that darned cheesecake
