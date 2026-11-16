@@ -124,7 +124,15 @@ files:
 
       average_passengers_per_car = passengers / cars_driven\r
 
-      \r
+      # Note on all the variable assignments above how we put\r
+
+      # spaces around the '=' and math operators. You don't have\r
+
+      # to do that, but it's good practice. If you don't, real\r
+
+      # software nerds will know you're a poser. Don't be a \r
+
+      # poser!\r
 
       \r
 

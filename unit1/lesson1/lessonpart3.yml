@@ -113,3 +113,14 @@ questionGroups:
             isCorrect: true
           - id: "2"
             value: Yes
+  - id: "2"
+    questions:
+      - id: "1"
+        type: string
+        content: Why do we have some variables with a decimal point and some without?
+          (Ex. space_in_a_car = 4.0) Is there a difference or could we have just
+          put 4 in there instead? Research and answer.
+        options:
+          - id: "1"
+            value: ""
+            isCorrect: true
