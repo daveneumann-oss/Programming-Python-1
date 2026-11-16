@@ -1,3 +1,65 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart1
-title: Page
+title: The Oracle!
+content: >
+  ## Activity: Create Your Own Oracle Program
+
+
+  In this activity, you will apply your knowledge of Python programming to
+  create a simple "oracle" program. This program will simulate a fortune-telling
+  experience by providing random responses to user questions.
+
+
+  ### Instructions
+
+
+  1. **Set Up Your Environment:**
+
+     * Code has already been started for you on the right.
+
+  2. **Write the Program:**
+
+     * We start by importing the `random` module, which will help you generate random responses.
+
+     * Define a list of possible responses that your oracle can give. For example (you'll want a bunch! 6 is the minimum, but the more you add the more variety you'll get. Be creative. Make sure to add the comma after each one but the last!
+
+       ```python
+       responses = [
+           "Yes, definitely!",
+           "No, not at all.",
+           "Ask again later."
+       ]
+       ```
+
+     * **Write a loop that allows the user to ask questions repeatedly. Use a** **`while`** **loop to keep the program running until the user decides to quit. Rewrite it from its current form so it isn't an infinite loop (you'll have to add a variable...)**
+
+     * Inside the loop, prompt the user to enter a question or type 'quit' to exit.
+
+     * If the user types 'quit', break out of the loop.
+
+     * Otherwise, use the `random.choice()` function to select a random response from your list and print it to the console.
+
+  3. **Test Your Program:**
+
+     * Run your program and ask it various questions to see how it responds.
+
+     * Make sure it handles the 'quit' command gracefully.
+
+  ### Reflection
+
+
+  After completing your oracle program, consider the following questions:
+
+
+  * How did using a loop help in creating an interactive program?
+
+
+  * What other features could you add to make your oracle program more
+  interesting or complex?
+
+
+  Feel free to experiment and enhance your program with additional features or
+  more sophisticated logic!
+showEditor: true
+editors:
+  - course1/unit1/lesson2/lessonpart1/MyOracle.py
