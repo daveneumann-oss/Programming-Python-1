@@ -110,6 +110,7 @@ content: >+
 
   * Press the run button and examine the output. 
 
+
   * Try to figure out the rules for what gets printed and how. For example, some
   lines output "True" or "False". Why?
 

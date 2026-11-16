@@ -1,9 +1,11 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: course1
-title: "Programming Python #1"
+title: Programming Python
 level: beginner
 description: Learn about printing, using the console, while loops, and if/then
-  statements and write your own "oracle" program using Python
+  statements and write your own "oracle" program using Python.
+objectives: "By the end of Unit 2: Robotics, you'll basically be a software
+  engineer. (OK, not quite, but you'll understand coding more than you do now!"
 cardImageUrl: https://vscodeedu.com/assets/course-cards/card6.png
 contacts:
   - displayName: daveneumann-oss
@@ -99,5 +101,45 @@ files:
       print(\"Is it greater or equal?\", 5 >= -2)\r
 
       print(\"Is it less or equal?\", 5 <= -2)"
+  - path: course1/unit1/lesson1/lessonpart3/PythonExercise3.py
+    content: "# Lines 4-11 are all variable assignments! Note you \r
+
+      # can assign variables to other variables or do math\r
+
+      # with variables and then assign that, too!\r
+
+      cars = 100\r
+
+      space_in_a_car = 4.0\r
+
+      drivers = 30\r
+
+      passengers = 90\r
+
+      cars_not_driven = cars - drivers\r
+
+      cars_driven = drivers\r
+
+      carpool_capacity = cars_driven * space_in_a_car\r
+
+      average_passengers_per_car = passengers / cars_driven\r
+
+      \r
+
+      \r
+
+      print(\"There are\", cars, \"cars available.\")\r
+
+      print(\"There are only\", drivers, \"drivers available.\")\r
+
+      print(\"There will be\", cars_not_driven, \"empty cars today.\")\r
+
+      print(\"We can transport\", carpool_capacity, \"people today.\")\r
+
+      print(\"We have\", passengers, \"to carpool today.\")\r
+
+      print(\"We need to put about\", average_passengers_per_car,\r
+
+      \"in each car.\")"
 units:
   - unit1/index.yml

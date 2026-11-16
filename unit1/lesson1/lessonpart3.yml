@@ -1,0 +1,115 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: lessonpart3
+title: Page
+content: >+
+  ## Using Variables in Python
+
+
+  In this lesson, we'll explore how to use variables in Python. Variables are
+  essential in programming as they allow you to store and manipulate data. Let's
+  dive into how you can create and use variables in your Python programs.
+
+
+  ### What is a Variable?
+
+
+  A variable is a named location in memory that stores a value. You can think of
+  it as a container or "bucket" that holds information that your program can use
+  and modify. In Python, you don't need to declare the type of a variable
+  explicitly; Python figures it out based on the value you assign to it.
+
+
+  ### Creating Variables
+
+
+  To create a variable in Python, you simply choose a name and use the
+  assignment operator `=` to assign it a value. (Note that = isn't "equals" in
+  python. It's an assignment operator. Basically, whatever is on the right of
+  the = gets assigned -- or dropped into the bucket -- on the left side of the
+  =).  Here’s an example: 
+
+
+  ```python
+
+  # Creating a variable named 'age' and assigning it the value 25
+
+  age = 25
+
+
+  # Creating a variable named 'name' and assigning it the value 'Alice'
+
+  name = "Alice"
+
+  ```
+
+
+  ### Using Variables
+
+
+  Once you've created a variable, you can use it in your program. You can print
+  it, perform operations with it, or update its value. Here’s how you can use
+  the variables we created:
+
+
+  ```python
+
+  # Printing the variables
+
+  print("Name:", name)
+
+  print("Age:", age)
+
+
+  # Updating the value of 'age'
+
+  age = age + 1
+
+  print("Updated Age:", age)
+
+  ```
+
+
+  ### Variable Naming Rules
+
+
+  When naming variables, follow these rules:
+
+
+  * Variable names must start with a letter or an underscore (`_`).
+
+
+  * The rest of the name can include letters, numbers, and underscores.
+
+
+  * Variable names are case-sensitive (`age` and `Age` are different).
+
+
+  * Avoid using Python keywords (like `print`, `if`, `else`) as variable names.
+
+
+  ### Practice
+
+
+  * Take a look at the code on the right....lot's of variables!
+
+    * Note that the names are descriptive and not vague. You can make your variable names as long as you need so you can remember (and other software engineers can figure out) what the variable is storing. Most text editors have shortcuts to quickly paste variable names into your code, so you won't have to type it every time you bring it up!
+    * You will want to use variables ALL THE TIME! It makes your code more readable and helps you with keeping your logic straight. You can even name your variables the same things you call stuff in your flowcharts and pseudocode to make sure you're not getting lost!
+
+showEditor: true
+editors:
+  - course1/unit1/lesson1/lessonpart3/PythonExercise3.py
+questionGroups:
+  - id: "1"
+    questions:
+      - id: "1"
+        type: choice
+        content: "We didn't use all of our variables in the code! cars_driven never gets
+          called out! Did the world end? "
+        options:
+          - id: "1"
+            value: No
+            explanation: That's right! Make variables and, if you find you don't need them
+              later, life goes on!
+            isCorrect: true
+          - id: "2"
+            value: Yes
