@@ -69,8 +69,107 @@ files:
       \    else:\r
 
       \        print(random.choice(responses))"
-  - path: course1/unit1/lesson1/lessonpart1/pythonexercise1.py
-    content: "#Type your code here"
+  - path: course1/unit1/lesson3/lessonpart1/GoblinBattle.py
+    content: "import random\r
+
+      \r
+
+      print(\"--- WELCOME TO THE BOSS FIGHT ---\")\r
+
+      print(\"A wild Goblin appears!\")\r
+
+      \r
+
+      # 1. VARIABLES\r
+
+      # Create a variable for player_health and set it to 50\r
+
+      # Create a variable for goblin_health and set it to 50\r
+
+      \r
+
+      \r
+
+      # 2. THE GAME LOOP\r
+
+      # Write a while loop that keeps running as long as BOTH the player and the
+      goblin have health greater than 0:\r
+
+      \r
+
+      \r
+
+      \    # 3. SHOW HEALTH\r
+
+      \    # Inside the loop, print the current health of both the player and
+      the goblin\r
+
+      \    \r
+
+      \    \r
+
+      \    # 4. PLAYER CHOICE\r
+
+      \    # Ask the user if they want to (1) Attack or (2) Heal, and save it to
+      a variable\r
+
+      \    \r
+
+      \r
+
+      \    # 5. IF/ELSE BATTLE LOGIC\r
+
+      \    # If the player chose 1:\r
+
+      \        # Generate random damage between 5 and 15 ( code:
+      random.randint(5, 15) )\r
+
+      \        # Subtract that damage from the goblin's health\r
+
+      \        # Print a message saying how much damage was dealt\r
+
+      \        \r
+
+      \    # Else If the player chose 2:\r
+
+      \        # Generate a random heal amount between 10 and 20\r
+
+      \        # Add that amount to the player's health\r
+
+      \        # Print a message saying how much they healed\r
+
+      \        \r
+
+      \    # Else:\r
+
+      \        # Print a message saying they typed the wrong thing and missed
+      their turn\r
+
+      \        \r
+
+      \        \r
+
+      \    # 6. GOBLIN COUNTER-ATTACK\r
+
+      \    # If the goblin's health is still greater than 0:\r
+
+      \        # Generate random damage between 5 and 15\r
+
+      \        # Subtract that damage from the player's health\r
+
+      \        # Print a message saying how much damage the goblin dealt\r
+
+      \r
+
+      \r
+
+      # 7. GAME OVER LOGIC\r
+
+      # (This goes OUTSIDE the while loop)\r
+
+      # If the player's health is 0 or less, print \"GAME OVER. You lose.\"\r
+
+      # Else, print \"YOU WIN! The goblin is defeated.\""
   - path: course1/unit1/lesson1/lessonpart2/PythonExample2.py
     content: "# A comment, this is so you can read your program later.\r
 
@@ -146,8 +245,8 @@ files:
       print(\"Is it greater or equal?\", 5 >= -2)\r
 
       print(\"Is it less or equal?\", 5 <= -2)"
-  - path: course1/unit1/lesson1/lessonpart3/PythonExercise3.py
-    content: "#Write your code below"
+  - path: course1/unit1/lesson1/lessonpart1/pythonexercise1.py
+    content: "#Type your code here"
   - path: course1/unit1/lesson1/lessonpart4/PythonExercise4.py
     content: "# note these two variables are Booleans set to True\r
 
@@ -316,106 +415,7 @@ files:
       # needed for the code actual operation.\r
 
       print(\"That the end, folks!\")"
-  - path: course1/unit1/lesson3/lessonpart1/GoblinBattle.py
-    content: "import random\r
-
-      \r
-
-      print(\"--- WELCOME TO THE BOSS FIGHT ---\")\r
-
-      print(\"A wild Goblin appears!\")\r
-
-      \r
-
-      # 1. VARIABLES\r
-
-      # Create a variable for player_health and set it to 50\r
-
-      # Create a variable for goblin_health and set it to 50\r
-
-      \r
-
-      \r
-
-      # 2. THE GAME LOOP\r
-
-      # Write a while loop that keeps running as long as BOTH the player and the
-      goblin have health greater than 0:\r
-
-      \r
-
-      \r
-
-      \    # 3. SHOW HEALTH\r
-
-      \    # Inside the loop, print the current health of both the player and
-      the goblin\r
-
-      \    \r
-
-      \    \r
-
-      \    # 4. PLAYER CHOICE\r
-
-      \    # Ask the user if they want to (1) Attack or (2) Heal, and save it to
-      a variable\r
-
-      \    \r
-
-      \r
-
-      \    # 5. IF/ELSE BATTLE LOGIC\r
-
-      \    # If the player chose 1:\r
-
-      \        # Generate random damage between 5 and 15 ( code:
-      random.randint(5, 15) )\r
-
-      \        # Subtract that damage from the goblin's health\r
-
-      \        # Print a message saying how much damage was dealt\r
-
-      \        \r
-
-      \    # Else If the player chose 2:\r
-
-      \        # Generate a random heal amount between 10 and 20\r
-
-      \        # Add that amount to the player's health\r
-
-      \        # Print a message saying how much they healed\r
-
-      \        \r
-
-      \    # Else:\r
-
-      \        # Print a message saying they typed the wrong thing and missed
-      their turn\r
-
-      \        \r
-
-      \        \r
-
-      \    # 6. GOBLIN COUNTER-ATTACK\r
-
-      \    # If the goblin's health is still greater than 0:\r
-
-      \        # Generate random damage between 5 and 15\r
-
-      \        # Subtract that damage from the player's health\r
-
-      \        # Print a message saying how much damage the goblin dealt\r
-
-      \r
-
-      \r
-
-      # 7. GAME OVER LOGIC\r
-
-      # (This goes OUTSIDE the while loop)\r
-
-      # If the player's health is 0 or less, print \"GAME OVER. You lose.\"\r
-
-      # Else, print \"YOU WIN! The goblin is defeated.\""
+  - path: course1/unit1/lesson1/lessonpart3/PythonExercise3.py
+    content: "#Write your code below"
 units:
   - unit1/index.yml
