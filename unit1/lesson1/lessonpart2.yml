@@ -77,35 +77,7 @@ content: >+
   What is going to print with the last line???
 
 
-  ### Try It Yourself
-
-
-  First of all, COMMENTS! Hooray! Comments are anything after a "#" in a line
-  (or see lines 6-11 for another way to make a comment). We use comments to make
-  our code more readable and to remember what the hell we we thinking when we
-  wrote it. You can never have too many comments, but you can definitely have
-  too few. Get used to writing them as you write code....
-
-
-  &#x20;  &#x20;
-
-
-  Take a look at the code...that's a lot of variables! Note that the variables
-  are all named something specific. We never give variables names that are too
-  vague. You can make the name as long as you want (no spaces!) and python will
-  remember it and help you type it in whenever you need it again.
-
-
-  Note that you can do math on the right side of the assignment (=) and it will
-  put the answer into the variable on the left of the assignment (=). 
-
-
-  Look at the comment on PEMDAS in Python! This is important regarding how
-  computers do math. 
-
-
-  Now look at how the print functions include variables! There's a lot of
-  different ways to print variables, but this is the most common way.
+  ### Instructions
 
 
   * Press the run button and examine the output. 
@@ -114,56 +86,10 @@ content: >+
   * Try to figure out the rules for what gets printed and how. For example, some
   lines output "True" or "False". Why?
 
+
+  * Read the Comments in the code! They will give you ideas about what and why
+  things are like they are!
+
 showEditor: true
 editors:
   - course1/unit1/lesson1/lessonpart2/PythonExample2.py
-questionGroups:
-  - id: "1"
-    questions:
-      - id: "1"
-        type: string
-        content: Why does Roosters = 97 and why does line 18 = 6.75? What operator is
-          causing some confusion?
-        options:
-          - id: "1"
-            value: "%"
-            explanation: The % operator is "modulus" that is, it returns the remainder of
-              the division operation instead of the division answer.
-            isCorrect: true
-  - id: "2"
-    questions:
-      - id: "1"
-        type: multiple
-        content: Lines like 20, 29, 30, and 31 output what is called a Boolean. By
-          examining their output, what is a boolean?
-        options:
-          - id: "1"
-            value: True or False
-            explanation: Boolean = True or False. It is a binary data type.
-            isCorrect: true
-          - id: "2"
-            value: A long number
-          - id: "3"
-            value: A string
-          - id: "4"
-            value: what ghosts do when they're tired
-  - id: "3"
-    questions:
-      - id: "1"
-        type: multiple
-        content: What are 2 ways to enter comments into code?
-        options:
-          - id: "1"
-            value: "#"
-            explanation: a pound, hash, or whatever you want to call it is how to do both
-              inline and solo comments
-            isCorrect: true
-          - id: "2"
-            value: "''' '''"
-            explanation: three apostrophes on each side of a block of text will turn it into
-              a comment. Used for LONG comments (even then, not as much...)
-            isCorrect: true
-          - id: "3"
-            value: ( )
-          - id: "4"
-            value: "{ }"

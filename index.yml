@@ -69,6 +69,8 @@ files:
       \    else:\r
 
       \        print(random.choice(responses))"
+  - path: course1/unit1/lesson1/lessonpart1/pythonexercise1.py
+    content: "#Type your code here"
   - path: course1/unit1/lesson1/lessonpart2/PythonExample2.py
     content: "# A comment, this is so you can read your program later.\r
 
@@ -144,68 +146,8 @@ files:
       print(\"Is it greater or equal?\", 5 >= -2)\r
 
       print(\"Is it less or equal?\", 5 <= -2)"
-  - path: course1/unit1/lesson1/lessonpart1/pythonexercise1.py
-    content: "print(\"Hello World!\")\r
-
-      print(\"Hello Again\")\r
-
-      print(\"I like typing this.\")\r
-
-      print(\"This is fun.\")\r
-
-      print('Yay! Printing.')\r
-
-      print(\"I'd much rather you 'not'.\")\r
-
-      print('I \"said\" do not touch this.')"
   - path: course1/unit1/lesson1/lessonpart3/PythonExercise3.py
-    content: "# Lines 4-11 are all variable assignments! Note you \r
-
-      # can assign variables to other variables or do math\r
-
-      # with variables and then assign that, too!\r
-
-      cars = 100\r
-
-      space_in_a_car = 4.0\r
-
-      drivers = 30\r
-
-      passengers = 90\r
-
-      cars_not_driven = cars - drivers\r
-
-      cars_driven = drivers\r
-
-      carpool_capacity = cars_driven * space_in_a_car\r
-
-      average_passengers_per_car = passengers / cars_driven\r
-
-      # Note on all the variable assignments above how we put\r
-
-      # spaces around the '=' and math operators. You don't have\r
-
-      # to do that, but it's good practice. If you don't, real\r
-
-      # software nerds will know you're a poser. Don't be a \r
-
-      # poser!\r
-
-      \r
-
-      print(\"There are\", cars, \"cars available.\")\r
-
-      print(\"There are only\", drivers, \"drivers available.\")\r
-
-      print(\"There will be\", cars_not_driven, \"empty cars today.\")\r
-
-      print(\"We can transport\", carpool_capacity, \"people today.\")\r
-
-      print(\"We have\", passengers, \"to carpool today.\")\r
-
-      print(\"We need to put about\", average_passengers_per_car,\r
-
-      \"in each car.\")"
+    content: "#Write your code below"
   - path: course1/unit1/lesson1/lessonpart4/PythonExercise4.py
     content: "# note these two variables are Booleans set to True\r
 

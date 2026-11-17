@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart4
 title: While, If and Else
-content: >
+content: >+
   ## If/Else Statements and While Loops
 
 
@@ -92,45 +92,19 @@ content: >
   `count` variable each time until it reaches 5.
 
 
-  ### Practice Exercise
+  ### Instructions
 
 
-  Try writing a small program that uses both an if/else statement and a while
-  loop. For example, create a simple guessing game where the user has to guess a
-  number between 1 and 10. Use an if/else statement to check if the guess is
-  correct and a while loop to allow multiple attempts.
+  * Run the code to the right. What happens the first time you run it? Can you
+  fix the error?
 
+  * There is a while loop in the code, but it's not infinite. What can you do to
+  make the while loop repeat?
 
-  By mastering if/else statements and while loops, you'll be able to create more
-  complex and interactive programs. Happy coding!
+  * When you run the code, notice you can input things directly into the
+  console...you will want to use Input statements like this in your own code to
+  engage your user.
+
 showEditor: true
 editors:
   - course1/unit1/lesson1/lessonpart4/PythonExercise4.py
-questionGroups:
-  - id: "1"
-    questions:
-      - id: "1"
-        type: string
-        content: What happened the first time you ran the code? What does it mean and
-          what did you do to fix it?
-        options:
-          - id: "1"
-            value: An error! Look for a line number and try to decode what it says!
-            isCorrect: true
-  - id: "2"
-    questions:
-      - id: "1"
-        type: choice
-        content: There's only one way to make the while loop repeat...what is it?
-        options:
-          - id: "1"
-            value: Press anything but 1 or 2 when you meet the bear!
-            explanation: It's the only option that doesn't change the variable not_dead or
-              not_insane to False.
-            isCorrect: true
-          - id: "2"
-            value: "Go into door #2"
-          - id: "3"
-            value: Listen to the flowers....
-          - id: "4"
-            value: Steal that darned cheesecake

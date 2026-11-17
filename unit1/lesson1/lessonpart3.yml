@@ -87,44 +87,56 @@ content: >+
   * Avoid using Python keywords (like `print`, `if`, `else`) as variable names.
 
 
+  ```
+
+  cars = 100
+
+  space_in_a_car = 4.0
+
+  drivers = 30
+
+  passengers = 90
+
+  cars_not_driven = cars - drivers
+
+  cars_driven = drivers
+
+  carpool_capacity = cars_driven * space_in_a_car
+
+  average_passengers_per_car = passengers / cars_driven
+
+
+
+  print("There are", cars, "cars available.")
+
+  print("There are only", drivers, "drivers available.")
+
+  print("There will be", cars_not_driven, "empty cars today.")
+
+  print("We can transport", carpool_capacity, "people today.")
+
+  print("We have", passengers, "to carpool today.")
+
+  print("We need to put about", average_passengers_per_car,
+
+  "in each car.")
+
+  ```
+
+
   ### Practice
 
 
-  * Take a look at the code on the right....lot's of variables!
+  * Take a look at the code above...that's a lot of variables!
 
     * Note that the names are descriptive and not vague. You can make your variable names as long as you need so you can remember (and other software engineers can figure out) what the variable is storing. Most text editors have shortcuts to quickly paste variable names into your code, so you won't have to type it every time you bring it up!
+
+    * Note that you can assign just about anything to a variable!
+
+    * How do the print statments incorporate the variables?
 
     * You will want to use variables ALL THE TIME! It makes your code more readable and helps you with keeping your logic straight. You can even name your variables the same things you call stuff in your flowcharts and pseudocode to make sure you're not getting lost!
 
 showEditor: true
 editors:
   - course1/unit1/lesson1/lessonpart3/PythonExercise3.py
-questionGroups:
-  - id: "1"
-    questions:
-      - id: "1"
-        type: choice
-        content: We didn't use all of our variables in the code! cars_driven never gets
-          called out! Did the world end?
-        options:
-          - id: "1"
-            value: No
-            explanation: That's right! Make variables and, if you find you don't need them
-              later, life goes on!
-            isCorrect: true
-          - id: "2"
-            value: Yes
-  - id: "2"
-    questions:
-      - id: "1"
-        type: string
-        content: Why do we have some variables with a decimal point and some without?
-          (Ex. space_in_a_car = 4.0) Is there a difference or could we have just
-          put 4 in there instead? Research and answer.
-        options:
-          - id: "1"
-            value: 4.0 is called a floating point number. Basically a number with decimal(s)
-              places. A number without a decimal is an integer. In some
-              programming languages this is a huge difference, but Python can
-              automatically switch between the two.
-            isCorrect: true
